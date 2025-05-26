@@ -1,20 +1,5 @@
 #!/bin/bash
 
-# Automatic detection and installation of translate-shell if missing
-if ! command -v trans >/dev/null 2>&1; then
-    echo "translate-shell (trans) is not installed. Attempting to install..."
-    if [ -f /etc/debian_version ]; then
-        sudo apt update && sudo apt install -y translate-shell
-    elif [ -f /etc/redhat-release ]; then
-        sudo dnf install -y translate-shell || sudo yum install -y translate-shell
-    elif [ -f /etc/arch-release ]; then
-        sudo pacman -Sy --noconfirm translate-shell
-    else
-        echo "Unrecognized distribution. Please install translate-shell manually."
-        exit 1
-    fi
-fi
-
 mkdir -p fr
 
 for file in en/*.xml; do
