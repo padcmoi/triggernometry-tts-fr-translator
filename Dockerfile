@@ -10,4 +10,7 @@ WORKDIR /app
 # Copy the script into the image root
 COPY script/translate.sh /app/translate.sh
 
+# Conversion automatique des fins de ligne Windows en LF pour le script (fix universel)
+RUN sed -i 's/\r$//' /app/translate.sh
+
 CMD ["bash", "/app/translate.sh"]
