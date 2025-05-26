@@ -1,0 +1,1119 @@
+<?xml version="1.0"?>
+<TriggernometryExport PluginVersion="1.2.0.7">
+  <ExportedFolder Id="ef35870a-cba9-43b0-ac3a-f64825fdd524" Name="Allliance Raids" Enabled="true">
+    <Folders>
+      <Folder Id="fabcfc57-47aa-42fd-866f-5864803b8038" Name="2.0 - A Realm Reborn" Enabled="true">
+        <Folders>
+          <Folder FFXIVZoneFilterEnabled="True" FfxivZoneFilterRegularExpression="^372$" Id="74869f42-ea83-482b-94a2-c62cf78591c6" ZoneFilterRegularExpression="Syrcus\ Tower" Name="2.3 - Syrcus Tower" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Curtain Call" Id="5aedccb9-9020-4e25-a1d6-ae00502f6b8a" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|989\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Hide" ActionType="UseTTS" />
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Ancient Quaga" Id="81e14596-a1a2-4ced-906c-7c4bbd5283b3" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|939\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Stand on Circle" ActionType="UseTTS" />
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder FFXIVZoneFilterEnabled="True" FfxivZoneFilterRegularExpression="^174$" Id="4c8340d2-46de-4ad5-94cf-45d79d2f58c9" ZoneFilterRegularExpression="The\ Labyrinth\ Of\ The\ Ancients" Name="2.1 - The Labyrinth of the Ancients" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Ancient Flare" Id="65c0e8a2-e257-4c04-bf9f-90331f853403" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|6C2\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go on pads" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Ecliptic Meteor" Id="d718a3e0-3b0e-4707-97ca-2214bb5a296d" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|6DC\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Hide behind rock" UseTTSRateExpression="5" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder FFXIVZoneFilterEnabled="True" FfxivZoneFilterRegularExpression="^151$" Id="b60458c1-08a2-4c7b-8288-78ca6296b83a" ZoneFilterRegularExpression="The\ World\ Of\ Darkness" Name="2.5 - The World of Darkness" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Zero-Form Particle Beam" Id="859ccbd6-7c1e-43d0-bd26-23bfa3987ae0" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|CE1\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="out of front" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Shockwave" Id="41769e96-7be7-43e9-b61c-e1d9905ce694" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|D58\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="knockback" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Mortal Gaze" Id="e21548b5-9f2b-41d0-8882-19f9808b6190" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|(?&gt;CD1|DAB)\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="look away" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+      <Folder Id="c0745f77-8a0e-40d3-998c-c291bb1404f6" Name="3.0 - Heavensward" Enabled="true">
+        <Folders>
+          <Folder FFXIVZoneFilterEnabled="True" FfxivZoneFilterRegularExpression="^508$" Id="1fe70038-c8d4-421b-8ac8-378327093909" ZoneFilterRegularExpression="The\ Void\ Ark" Name="3.1 - The Void Ark" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Shockwave Stomp" Id="25d6d126-bd8d-4b02-a481-18afffc5f220" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|145D\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Hide" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Corrosive Bile" Id="4141faa8-83ae-45e4-855b-bee9f339c25b" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|1436\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Out of Front" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Flailing Tentacles" Id="a9410088-906c-4761-98ef-ebe62ea08ec7" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|143A\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Away from tentacles" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Sickle Strike - TB" Id="0fb78e88-455f-48a7-b3c1-5c390a53a7cc" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|1421\|[^|]*\|(?&lt;targetID&gt;[^|]*)\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Buster on ${_ffxivparty[${targetID}].name}" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Abyssal Reaper" Id="0d07dc35-be0c-4c21-9fbc-614656c6804f" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|1418\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="get away" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Petrifaction" Id="5ad1cd20-6348-4349-80c7-4f637d9d00df" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|1422\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="look away" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder FFXIVZoneFilterEnabled="True" FfxivZoneFilterRegularExpression="^556$" Id="b06d27c8-841a-43b3-8241-539793e12143" ZoneFilterRegularExpression="The\ Weeping\ City\ Of\ Mhach" Name="3.3 - The Weeping City of Mhach" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Frond Affeared" Id="bf4d6ac7-1e40-420b-98d1-764e5a694510" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|183A\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="look away" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Mortal Ray" Id="5e406f03-752d-45a2-923d-b141e8165484" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|17D4\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="look away" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Mega Death" Id="7beb69d0-8453-4c02-ada8-dca6ab083884" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|17CA\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="go in puddle" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Flaring Epigraph" Id="9c6bf4e4-74f6-4699-965b-9028a40bf6ad" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|1856\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go in bubble" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder FFXIVZoneFilterEnabled="True" FfxivZoneFilterRegularExpression="^627$" Id="eb785220-ca0a-44d2-8606-c68910720ff9" ZoneFilterRegularExpression="Dun\ Scaith" Name="3.5 - Dun Scaith" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Shadethrust" Id="b1b3a69b-a5c3-48cd-9fca-f7c13e7590bb" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|1C1A\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="out of front" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Hollow Nightmare" Id="d668c0ed-3059-43eb-a762-5f29c93bb11c" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|1C20\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="look away" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Nightmare" Id="5d76136b-b65e-4c83-8d41-025a6f48ad8f" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|1C0E\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="look away ??" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Void Death" Id="f199612a-5fda-4d3a-8f00-f7521b1176a7" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|1C90\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Away from middle : death" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Void Blizzard End Cast" Id="5188f7f4-afb8-4b5e-bf01-6a4cdca5ed51" RegularExpression="^21\|[^|]*\|[^|]*\|[^|]*\|1C77\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="knockback into ice" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Doom" Id="ef62010d-6658-4529-8d41-edfdd4b010a1" RegularExpression="^26\|[^|]*\|38E\|[^|]*\|[^|]*\|[^|]*\|[^|]*\|[^|]*\|(?&lt;player&gt;[^|]*)\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Cleanse ${player}" ActionType="UseTTS">
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[${player}].inparty}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+      <Folder Id="cb6e613d-3a24-4341-ae39-5834c5f965ab" Name="4.0 - Stormblood" Enabled="true">
+        <Folders>
+          <Folder FFXIVZoneFilterEnabled="True" FfxivZoneFilterRegularExpression="^734$" Id="9eac839d-8884-4e96-88ca-c5ad53d54be9" ZoneFilterRegularExpression="The\ Royal\ City\ Of\ Rabanastre" Name="4.1 - The Royal City of Rabanastre" Enabled="true">
+            <Folders />
+            <Triggers />
+          </Folder>
+          <Folder FFXIVZoneFilterEnabled="True" FfxivZoneFilterRegularExpression="^776$" Id="bd25a0fd-fc1e-4369-96f7-b9c211cfcd2e" ZoneFilterRegularExpression="The\ Ridorana\ Lighthouse" Name="4.3 - The Ridorana Lighthouse" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Tsunami" Id="8d23c956-2fdd-4e7f-bda6-2b6c2d418e22" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|2C50\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Tsunami" UseTTSRateExpression="2" ActionType="UseTTS" />
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Water IV" Id="c74e34ad-8132-4c7e-9459-e66609249442" RegularExpression="Famfrit, the Darkening Cloud begins casting Water IV.">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="AOE" ActionType="UseTTS" />
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Tide Pod" Id="cbeeca91-baf8-46c4-a57b-180d072815eb" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|2C3E\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Buster" ActionType="UseTTS" />
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Fire" Id="e3b80803-4489-453c-9ade-32b337dbe149" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|2CDB\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Buster" ActionType="UseTTS" />
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Time Eruption" Id="115d6a60-459e-4f22-b9a6-10ca58bba9a8" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|2CDE\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go in Slow Clock" UseTTSRateExpression="1" ActionType="UseTTS" />
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Time Bomb" Id="90e99bcf-181d-46b0-9fec-5c2489b8bd49" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|2CE6\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Step on Bombs" ActionType="UseTTS" />
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Dispose" Id="236d644c-0f62-4b54-820e-f813a366feca" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|2C(?&gt;5F|E9)\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go Behind" ActionType="UseTTS" />
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Pulverize" Id="5daa785b-ac7f-4332-8c59-ba04231386de" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|2C61\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go Out" ActionType="UseTTS" />
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Rake Buster" Id="ab42e8b7-c9c5-427c-8ab9-bb5a140ba3c9" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|2D4E\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Buster" ActionType="UseTTS" />
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Magnetic Lysis" Id="934b0c10-d26b-4958-b4f9-c7ab24c688f1" RegularExpression="Yiazmat readies Magnetic Lysis.">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Move to Opposite Sign" ActionType="UseTTS" />
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Archaeodemon (WIP)" Id="abe78c65-aed5-4456-9c8a-32616d272c9b" RegularExpression="03:Added New Combatan Archaeodemon">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Kill Adds" ActionType="UseTTS" />
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Gigas (WIP)" Id="3c2a9467-e00d-42e7-8f2d-76137a12a15d" RegularExpression="03:Added New Combatan Gigas">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Kil Adds" ActionType="UseTTS" />
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Rake out of front" Id="89e0fdda-9783-4597-86e6-476d1e98d6b9" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|2E32\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="out of front" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder FFXIVZoneFilterEnabled="True" FfxivZoneFilterRegularExpression="^826$" Id="eca8ecc2-e5ef-416f-9608-d5242c71da22" ZoneFilterRegularExpression="The\ Orbonne\ Monastery" Name="4.5 - The Orbonne Monastery" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Doom" Id="b7afcd86-7f11-4c23-a6f1-b5848f3d7144" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|3751\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Top Off Doom" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="TG HS" Id="76e8ed99-f19e-4884-8ac7-2328be617454" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|374[9A]\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="TG HS sides" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="TG HS in/out" Id="d6114af2-d800-4e18-94c5-56a01d79ebdd" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|37(?&gt;4F|50)\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="TG HS in or out" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Puddle" Id="dcddbbdf-6de9-4033-addf-8bb9e1f482a7" RegularExpression="^21\|[^|]*\|[^|]*\|[^|]*\|375E\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Drop Puddle Away" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="And">
+                  <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+      <Folder Id="93db370a-9548-48be-bfce-0a3f6082623a" Name="5.0 - Shadowbringers" Enabled="true">
+        <Folders>
+          <Folder FFXIVZoneFilterEnabled="True" FfxivZoneFilterRegularExpression="^882$" Id="5598de44-9caa-4be0-a20f-69337a458487" ZoneFilterRegularExpression="The\ Copied\ Factory" Name="5.1 - The Copied Factory" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Clanging Blow" Id="66a9c5b1-eb4c-44df-a0bb-bf0964ad4946" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|48CE\|[^|]*\|[^|]*\|(?&lt;player&gt;[^|]*)\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Buster on ${player}" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Forceful Impact" Id="09fce0fb-363a-4b21-aa5c-4cf896cc72fe" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|48CF\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="AoE" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Energy Assault" Id="0a5e1cd3-b69a-4869-b0b0-ab164b8c561c" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|48B5\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="out of front" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Sidestriking Spin" Id="cab23c72-6ef5-4ad5-bcf8-4776782c9451" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|48C[ABC]\|" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Back and Front" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Laser-Resistance Test" Id="5e4dfe81-4db6-4d05-80a2-d626c6003b94" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4805\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="AoE - Multiple hits" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="360-Degree Bombing Maneuver" Id="46121354-7a94-45de-8a1d-9c98bf92a577" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4941\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="AoE" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Lightfast Blade" Id="cd3b8904-35a8-4915-b048-340b6b450a81" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4940\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="go behind" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Marx Smash (to confirm)" Id="c9f77bea-7c3b-4113-82a3-511596b75bf0" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|472(?&lt;hit&gt;[67EA])\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Left then right" ActionType="UseTTS">
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${hit}" ExpressionTypeL="String" ExpressionR="6" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                    </Condition>
+                  </Action>
+                  <Action OrderNumber="2" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Right then Left" ActionType="UseTTS">
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${hit}" ExpressionTypeL="String" ExpressionR="7" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                    </Condition>
+                  </Action>
+                  <Action OrderNumber="3" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Front then back" ActionType="UseTTS">
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${hit}" ExpressionTypeL="String" ExpressionR="E" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                    </Condition>
+                  </Action>
+                  <Action OrderNumber="4" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Back then front" ActionType="UseTTS">
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${hit}" ExpressionTypeL="String" ExpressionR="A" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                    </Condition>
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Diffuse Laser" Id="7180167c-600d-45ce-b509-4ee8d0b503ed" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4755\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="AoE" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Energy Barrage" Id="2610093c-6617-4ece-80ee-619c5ac70d2f" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|473C\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go Sides ... then soak meteors" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Marx Activation" Id="859b069b-6c01-4c98-8197-110ff1018c45" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|48A8\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="look for side arms" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Marx Crush" Id="ee04334c-ca81-4e70-9635-7465c3a2f2bb" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4746\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="middle front" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Cannons" Id="8b7d2fc2-7a05-4f56-878c-59cd3b6304fd" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|48D(?&lt;hit&gt;[EF])\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="back and front" ActionType="UseTTS">
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${hit}" ExpressionTypeL="String" ExpressionR="E" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                    </Condition>
+                  </Action>
+                  <Action OrderNumber="2" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="sides" ActionType="UseTTS">
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${hit}" ExpressionTypeL="String" ExpressionR="F" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                    </Condition>
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Engage Marx Support" Id="4223798c-ac40-4c32-9894-927a864c1526" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|48D3\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="away from arms" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Neutralisation" Id="99831f94-3aec-4aa9-9b69-319d8cd73cf3" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|48F5\|[^|]*\|[^|]*\|(?&lt;player&gt;[^|]*)\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Buster on ${player}" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Laser Saturation" Id="367f6766-cc68-4f93-9faa-b85b620403df" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|48F6\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="AoE" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Laser Turret" Id="006db950-3768-4455-abb4-a575a7a01d45" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4A74\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="out of front" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Centrifugal Spin" Id="c25126bb-0793-445a-821c-a890e089d028" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|48C8\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="go on sides" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder FFXIVZoneFilterEnabled="True" FfxivZoneFilterRegularExpression="^917$" Id="b34deb5f-d172-43a5-956e-82ff160efc61" ZoneFilterRegularExpression="The\ Puppets'\ Bunker" Name="5.3 - The Puppets' Bunker" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="Puppet Aegis Anti-Personnel - TB" Id="92ce0cde-3718-43ab-9b0c-d0eebb5be9e2" RegularExpression="1B:[0-9A-F]{8}:(?&lt;char&gt;[a-zA-Z' ]{3,21}):[0-9A-F]{4}:[0-9A-F]{4}:00C6:" PrevActionsRefire="Deny" PeriodRefire="Deny" RefirePeriodExpression="200">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Buster on ${char}" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${char}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Beam Cannons" Id="ca0f8c59-250c-4423-a10e-abf4b517fa43" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|5073\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="go to narrow intersect" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Puppet Aegis Aerial Support Surface Laser" Id="515a42c6-4b9f-452c-93ce-65b5b6160bb4" RegularExpression="1B:[0-9A-F]{8}:(?&lt;char&gt;[a-zA-Z' ]{3,21}):[0-9A-F]{4}:[0-9A-F]{4}:0017:">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="get away, chasing laser" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="refraction cannons 2" Id="3d1dc150-1247-4aed-8138-c8bf4e6eaafe" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|507F\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="go between wings" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="refraction cannons 1" Id="e64eb7de-0f80-4475-80f0-ca6dfc230c73" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|5080\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="get under wings" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="life's last song" Id="266b23c9-6ea8-415d-a103-00bcd03a17db" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|50B3\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="dodge into ring gap" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="light maneuver martial arrm target" Id="d84e2408-c412-448e-9cf9-212fd33b06fd" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|5213\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="buster" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Puppet Aegis Aerial Support Surface Laser" Id="57c6e163-ff22-4da1-9b08-bd34758f1388" RegularExpression="1B:[0-9A-F]{8}:(?&lt;char&gt;[a-zA-Z' ]{3,21}):[0-9A-F]{4}:[0-9A-F]{4}:0017:" PrevActionsRefire="Deny" PeriodRefire="Deny" RefirePeriodExpression="200">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="get away, chasing laser" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${char}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="sword charges" Id="c23dfeac-7519-409c-9944-c0d1b84a2c13" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4FAB\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="dodge charges" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="heavy volt array" Id="999aa419-b444-470c-8c6a-96a6842ca7e3" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|5006\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="aoe" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Puppet Heavy Active Laser Turret Initial" Id="08f587ed-6d43-43fe-9fa8-06ff8a860b26" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4FED\\">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="get outside upper laser" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Puppet Heavy Active Laser Turret Move" Id="d03842f5-8d28-48b9-b547-c04cbc1af07b" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|5086\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="move" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Puppet Heavy Unconventional Voltage" Id="e3b07327-7261-4694-a993-fda89fbb27b1" RegularExpression="1B:[0-9A-F]{8}:(?&lt;char&gt;[a-zA-Z' ]{3,21}):[0-9A-F]{4}:[0-9A-F]{4}:00AC:" PeriodRefire="Deny" RefirePeriodExpression="200">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Cleave on YOU" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${char}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="revolving laser" Id="491057b3-dd88-4b6b-aca9-be9acf8c2a56" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|5000\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="go in" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Synthetize compound" Id="f4f77b22-caab-4e2e-8734-631cdb6235c8" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4FEC\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="turn towers blue" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="mechanical dissection" Id="b2b60144-050b-4b26-b534-b9d8e402c3d9" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|51B(?&lt;move&gt;[34])\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="go sides" ActionType="UseTTS">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${move}" ExpressionTypeL="String" ExpressionR="3" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                    </Condition>
+                  </Action>
+                  <Action OrderNumber="2" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="go in" ActionType="UseTTS">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${move}" ExpressionTypeL="String" ExpressionR="4" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                    </Condition>
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="energy compression" Id="3860b331-8f7e-4875-a4f5-c068a5c8e0d8" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|51A6\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="towers" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Laser" Id="ebba862e-b3c6-4e2a-ae1e-cfbea1dcdfb6" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|541B\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="avoid lasers" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+      <Folder Id="c2e7780c-e6bb-43b8-b54e-01b9809a64a1" Name="6.0 - Endwalker" Enabled="true">
+        <Folders>
+          <Folder FFXIVZoneFilterEnabled="True" FfxivZoneFilterRegularExpression="^1054$" Id="f947bbf6-d72a-4037-b5bb-5b5ea1e1bc56" Name="6.1 - Aglaia" Enabled="true">
+            <Folders>
+              <Folder Id="3bceca1f-c909-4d34-96bf-fc158c1f9610" Name="Add Fights" Enabled="true">
+                <Folders>
+                  <Folder Id="e6e933dd-7f12-4a69-840a-16dbbaf61945" Name="01.1 - Rhalgr's Emissary" Enabled="true">
+                    <Folders />
+                    <Triggers>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="AoE - Bolts from the Blue" Id="61b7119e-4770-4ada-b747-8c08a8f8194a" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|70E3\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="aoe" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="TB - Destructive Strike" Id="38fce3c7-9947-4705-91d0-ab5aa6a0f22c" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|70D9\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Tank buster" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="Behind - Destructive Static" Id="3199ff2c-8dff-45a0-a898-3d1fc7ce84ed" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|70E0\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go behind" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                    </Triggers>
+                  </Folder>
+                  <Folder Id="b5bd6c2b-d94b-4923-b018-2cbc8bc34fb5" Name="02.1 - Lions" Enabled="true">
+                    <Folders />
+                    <Triggers>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="Out -&gt; In - Slash and Burn Lion first" Id="1628d6be-b6ce-4d8f-8596-14e8197e40b4" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|71D0\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="out then in" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="In -&gt; Out - Slash and Burn Lioness first" Id="bd3ef0eb-a68a-4900-bccc-6029ccd67084" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|71D2\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="in then out" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="AoE - Double Immolation" Id="15fde1d5-8feb-4e69-8723-d207066c6d9b" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|7177\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="aoe" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                    </Triggers>
+                  </Folder>
+                </Folders>
+                <Triggers />
+              </Folder>
+              <Folder Id="2bbe1cec-3580-4d9c-a0b5-11adc6b816ee" Name="Bosses" Enabled="true">
+                <Folders>
+                  <Folder Id="3ea9e680-d714-4ea4-8296-d9b18487c13e" Name="01 - Byregot" Enabled="true">
+                    <Folders />
+                    <Triggers>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="Knockback - Byregot's Strike" Id="aaff0fd8-c8db-40ec-9136-a5a84a5fc3f3" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|725A\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Knockback" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="AoE - Ordeal of Thunder" Id="6a10aaf0-204a-4ff3-9f2e-e81eaec6bd01" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|7176\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="aoe" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="Knockback - Byregot's Strike Lightning" Id="8ca2a4bd-1b58-4943-a847-dde8fba27ae5" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|7167\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Knockback intercards" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                    </Triggers>
+                  </Folder>
+                  <Folder Id="fa71be67-3909-4c03-8063-1aa0b646bbf3" Name="02 - Rhalgr" Enabled="true">
+                    <Folders>
+                      <Folder Id="836a54f9-9102-46b7-8008-0d9584678fc5" Name="Hand of the Destroyer" Enabled="true">
+                        <Folders />
+                        <Triggers>
+                          <Trigger Enabled="true" Source="FFXIVNetwork" Name="Go blue" Id="13ca8efe-79f0-4546-ba68-b566d2b619af" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|70A8\|">
+                            <Actions>
+                              <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Stay on blue side" ActionType="UseTTS">
+                                <Condition Enabled="false" Grouping="Or" />
+                              </Action>
+                            </Actions>
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Trigger>
+                          <Trigger Enabled="true" Source="FFXIVNetwork" Name="Go red" Id="91976e2a-5b32-467f-b93c-004aefac265e" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|70A9\|">
+                            <Actions>
+                              <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Stay on red side" ActionType="UseTTS">
+                                <Condition Enabled="false" Grouping="Or" />
+                              </Action>
+                            </Actions>
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Trigger>
+                          <Trigger Enabled="true" Source="FFXIVNetwork" Name="Go Portal" Id="eae89430-4272-4675-8c68-2eb016c0aa16" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|70AC\|">
+                            <Actions>
+                              <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go red side portal" ActionType="UseTTS">
+                                <Condition Enabled="false" Grouping="Or" />
+                              </Action>
+                            </Actions>
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Trigger>
+                        </Triggers>
+                      </Folder>
+                    </Folders>
+                    <Triggers>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="TB - Destructive Bolt" Id="ccea6f98-9499-4209-9b2f-fec6ab3c28a2" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|70B4\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Tank buster" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="Knockback - Rhalgr's Beacon" Id="f715df89-ec12-44f5-adee-bd55cde2cf76" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|70B8\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="knockback, avoid orbs" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="AoE - Lightning Reign" Id="0e92705f-da9c-4bcd-a90f-dfe07655be12" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|70A5\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="aoe" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                    </Triggers>
+                  </Folder>
+                  <Folder Id="96bc31ae-7a6c-4454-b8c7-b5d12ee88f11" Name="03 - Azeyma" Enabled="true">
+                    <Folders />
+                    <Triggers>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="Go behind - Fleeting Spark" Id="a218e941-4b64-4731-b1ef-7873af5a8f31" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|709C\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go behind" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="AoE - Warden's Prominence" Id="c5a2b4fc-2753-48c0-b71d-28d9cb18edf4" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|70A0\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="aoe" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="TB - Warden's Warmth" Id="07e0525b-9135-43c3-8b24-e6c8a2ef9d89" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|709F\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Tank buster" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="Behind and out - Sublime Sunset" Id="93f730e3-2dc1-4e4f-bab6-13f582c408ab" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|7098\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go behind and out" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                    </Triggers>
+                  </Folder>
+                  <Folder Id="a16636e8-6b3b-44b2-9de8-8c6c7367aaa0" Name="04 - Nald'thal" Enabled="true">
+                    <Folders />
+                    <Triggers>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="Markers out - Far Above, Deep Below Blue" Id="9a4cf02e-2e15-4ee7-94e3-134c21c6b484" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|73AA\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Don't stack, markers out" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="In - Heat Above, Flames Below Blue" Id="43945345-3a6e-47a2-930e-b0fb68e4242c" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|73A5\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go in" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="Out - Heat Above, Flames Below Orange" Id="06303c4b-0295-4825-a131-9db0461f59d0" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|73A4\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go out" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="AoE - Hells' Trial" Id="8f24f74b-aae5-45d0-9da1-9b0875189a87" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|7121\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="aoe" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="Once Above, Ever Below Blue" Id="3f025fa3-d9b6-4d6c-858b-578269bec196" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|(73C0|741C)\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go orange corner" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="Front - Hell of Fire Back" Id="97fe8d77-a4fc-49fd-9938-1cd59cc074df" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|72B9\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go front" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="Behind - Hell of Fire Front" Id="9b505e0c-de0b-4c80-bed1-240622e08df1" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|72B7\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go behind" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="Out and stack - Hearth Above, Flight Below Orange" Id="df44d05e-2e04-4bdf-b46f-7fca0691e1ae" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|(73CB|74FB)\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go out and stack, ignore chase marks" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="TB - Stygian Tenet" Id="4a2d4269-db53-4f17-893d-89b1a864f904" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|711D\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Tank buster" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="Once Above, Ever Below Orange" Id="6cf6f4f8-fe91-4cd3-8119-c3d293add036" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|(73BF|741D)\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go blue corner" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="TB - Golden Tenet" Id="030cb2b5-aa49-488c-ae4e-47f6c1a678bc" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|711B\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Tank buster" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="Stack - Far Above, Deep Below Orange" Id="ffbcf9b9-1203-4e3b-b839-08ef7773af8c" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|73AB\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Stack, ignore marks" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Source="FFXIVNetwork" Name="In -&gt; Out - Hearth Above, Flight Below Blue" Id="0c0eab48-1ff0-49ae-91b7-e49b488a05c7" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|73C(A|C)*\|">
+                        <Actions>
+                          <Action OrderNumber="1" OBSEndPoint="" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go in, then markers out, ignore stack" ActionType="UseTTS">
+                            <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                    </Triggers>
+                  </Folder>
+                </Folders>
+                <Triggers />
+              </Folder>
+            </Folders>
+            <Triggers />
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+    </Folders>
+    <Triggers />
+  </ExportedFolder>
+</TriggernometryExport>

@@ -1,0 +1,15 @@
+services:
+  triggernometry-translator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: triggernometry-translator
+    volumes:
+      - ./en:/app/en
+      - ./fr:/app/fr
+    working_dir: /app
+    environment:
+      - LANG=C.UTF-8
+    tty: true
+    stdin_open: true
+    command: [ "bash", "/app/translate.sh" ]
